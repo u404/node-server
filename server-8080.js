@@ -2,6 +2,7 @@ const Koa = require('koa');
 const app = new Koa();
 
 const main = ctx => {
+    console.log(ctx.request.query);
     ctx.response.type = 'json';
     ctx.response.body = {
         "result": "ok",
