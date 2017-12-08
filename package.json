@@ -1,0 +1,16 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/u404/node-server.git",
+  "author": "ghzhang <ghzhang@huikedu.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fs.promised": "^3.0.0",
+    "koa": "^2.3.0",
+    "koa-body": "^2.3.0",
+    "koa-compose": "^4.0.0",
+    "koa-route": "^3.2.0",
+    "koa-static": "^4.0.1"
+  }
+}
